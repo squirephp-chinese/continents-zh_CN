@@ -1,0 +1,43 @@
+{
+    "name": "squirephp-chinese/continents-zh_CN",
+    "description": "A library containing the Simple Chinese translation of Squire's Continent model.",
+    "keywords": ["squire"],
+    "license": "MIT",
+    "homepage": "https://github.com/squirephp",
+    "support": {
+        "issues": "https://github.com/squirephp/squire/issues",
+        "source": "https://github.com/squirephp/squire"
+    },
+    "authors": [
+        {
+            "name": "Dan Harrin",
+            "email": "dan@danharrin.com"
+        },
+        {
+            "name": "cooper",
+            "email": "myxiaoao@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+        "php": "^8.0",
+        "squirephp/repository": "^3.4",
+        "squirephp/continents": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Squire\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ContinentsSimpleChineseServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
