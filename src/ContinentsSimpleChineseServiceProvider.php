@@ -9,6 +9,6 @@
     {
         public function boot(): void
         {
-            Repository::registerSource(Continent::class, 'zh_CN', __DIR__ . '/../resources/data.csv');
+            Repository::registerSource(Continent::class, 'zh_cn', __DIR__ . '/../resources/data.csv');
         }
     }
